@@ -18,5 +18,5 @@ Two fault scenarios are triggered manually to demonstrate UsageFault handling an
 ## Cubeide displaying the values of the stack frames for both the faults
 | File | Stack Frame values |
 |------|--------------------|
-| main.c | ![cube](../Img/008_invalid.png) |
+| main.c | ![cube](../Img/008_invaild.png) |
 | main0.c | ![cube](../Img/008_div0.png) |
