@@ -17,7 +17,18 @@ HAL or middleware abstraction directly at the register and assembly level.
 ## Projects
 
 | # | Project | Concepts |
-|---|---|---|
-| 001 | Operation Modes | Thread mode and Handler mode  |
+|---|---------|----------|
+| 001 | Operation Modes | Thread mode and Handler mode |
+| 002 | Inline Assembly | Inline assembly, processor register access from C |
+| 003 | Access Levels | Privileged vs unprivileged mode, CONTROL register, Thumb ISA |
+| 004 | Bit Banding | Bit band region, atomic bit manipulation via alias addresses |
+| 005 | Stack Exercise | PSP vs MSP, CONTROL register stack switching |
+| 006 | USART3 Int Pend | Interrupt pending via software, NVIC ISPR register |
+| 007 | Interrupt Priority | IPR register, priority grouping, pre-emption vs sub-priority |
+| 008 | Fault Gen | UsageFault, BusFault, MemManage fault generation and handlers |
+| 009 | SVC Number | SVC instruction, extracting SVC number from opcode in handler |
+| 010 | SVC Math | SVC based privileged math execution, service dispatcher |
+| 011 | Round Robin Scheduler | Bare metal task scheduler, PendSV, SysTick, PSP context switch, task blocking |
+| 012 | Custom Linker | Custom linker script, startup file, bare metal build with OpenOCD + semihosting |
 
 
