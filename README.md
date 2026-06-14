@@ -24,7 +24,7 @@ HAL or middleware abstraction directly at the register and assembly level.
 | 004 | Bit Banding | Bit band region, atomic bit manipulation via alias addresses |
 | 005 | Stack Exercise | PSP vs MSP, CONTROL register stack switching |
 | 006 | USART3 Int Pend | Interrupt pending via software, NVIC ISPR register |
-| 007 | Interrupt Priority | IPR register, priority grouping, pre-emption vs sub-priority |
+| 007 | Interrupt Priority | IPR register |
 | 008 | Fault Gen | UsageFault, BusFault, MemManage fault generation and handlers |
 | 009 | SVC Number | SVC instruction, extracting SVC number from opcode in handler |
 | 010 | SVC Math | SVC based privileged math execution, service dispatcher |
